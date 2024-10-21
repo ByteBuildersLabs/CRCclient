@@ -39,7 +39,7 @@ function Wallet() {
                   <img src={walletIcon} alt="" />
                 </div>
                 <div className="token-balance">
-                  <p className={ account ? '' : 'gray' }>{balance}</p>
+                  <p className={ account ? '' : 'gray' }>₡{balance}</p>
                   <p className={ account ? '' : 'gray' }>Cólones</p>
                   <p className="cora-wallet-address">{truncatedAddress ? truncatedAddress : 'Connect wallet'}</p>
                 </div>
