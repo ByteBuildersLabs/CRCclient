@@ -1,0 +1,32 @@
+.homescreen {
+  margin-top: 40%;
+}
+
+.breadcrumb-content h2 {
+  color: #fff;
+  margin-top: 0px;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 1;
+  text-align: right;
+}
+
+.breadcrumb-content h2 span {
+  font-size: 40px;
+  color: #0c1b22;
+}
+
+.breadcrumb-content img {
+  border-radius: 50%;
+  border: 3px solid #0c1b22;
+  margin-bottom: 15px;
+}
+
+.breadcrumb-content p {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.breadcrumb-content p span {
+  color: var(--light-gray);
+}
