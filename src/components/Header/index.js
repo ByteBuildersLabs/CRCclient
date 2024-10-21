@@ -45,7 +45,7 @@ function Header() {
         ?
           <nav className="navbar">
             <div className='container'>
-              <div className="logo d-flex align-items-center mb-2">
+              <div className="logo d-flex align-items-center">
                 <h2>Cólones <span>Wallet</span></h2>
               </div>
               <button  onClick={disconnect} type="button">
