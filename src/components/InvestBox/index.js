@@ -13,7 +13,7 @@ function InvestBox() {
     <>
       <div className="invest-box section-tab">
         <div className='d-flex align-items-center mb-2'>
-          <div className='col-9'>
+          <div className='col-12'>
             <p className={ 'title ' + (account ? '' : 'gray') }>
               Crypto Colón gives you all the perks <span> Enjoy our ecosystem</span>
             </p>
@@ -29,7 +29,6 @@ function InvestBox() {
             <div>
             </div>
             <div className="d-flex align-items-center">
-              <span className={ account ? '' : 'gray' }>$</span>
               <input 
                 placeholder="0.00"
                 min="1"
@@ -59,8 +58,9 @@ function InvestBox() {
             <div>
             </div>
             <div className="d-flex align-items-center justify-content-center">
+              <span className={ account ? '' : 'gray' }>₡</span>
               <input
-                placeholder="200"
+                placeholder="0"
                 type="number"
                 className={ account ? '' : 'gray' }
                 disabled={ account ? false : true }

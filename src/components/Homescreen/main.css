@@ -13,7 +13,7 @@
 
 .breadcrumb-content h2 span {
   font-size: 40px;
-  color: #0c1b22;
+  color: var(--light-gray);
 }
 
 .breadcrumb-content img {

@@ -68,6 +68,7 @@ function Send(props) {
               <span className={ account ? '' : 'gray' }>I want to send</span>
             </div>
             <div className="d-flex align-items-center">
+              <span className={ account ? '' : 'gray' }>₡</span>
               <input 
                 name="amount" 
                 placeholder="0.00" 

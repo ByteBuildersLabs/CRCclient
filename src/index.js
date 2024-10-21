@@ -30,7 +30,7 @@ ReactDOM.render(
                 <Route path='/' element={<Bag/>}/>
               </Routes>
             </div>
-            <p className={ 'subtitle mt-3 mb-0 text-center' }>
+            <p className={ 'subtitle mt-3 mb-4 mb-0 text-center' }>
               Create by ByteBuildersLabs © 2024
             </p>
           </Router>
