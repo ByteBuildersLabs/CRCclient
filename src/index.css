@@ -93,9 +93,11 @@ button {
 }
 
 .main-button:disabled {
+  background-color: transparent;
 }
 
 .main-button:hover {
+  background-color: transparent;
 }
 
 .secondary-button {
